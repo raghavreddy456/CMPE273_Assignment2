@@ -23,8 +23,8 @@ public class SimpleProducer {
 
         new SimpleProducer();
         String topic = "CmpE273Assignment2";
-        mod_email = "lalitha.suggula@sjsu.edu";
-        String msg = mod_email+":010049442:" + poll_result;
+        mod_email = "raghavendra.reddy@sjsu.edu";
+        String msg = mod_email+":009987796:" + poll_result;
         System.out.println(msg);
         //KeyedMessage<Integer, String> data = new KeyedMessage<>(topic, msg);
         //KeyedMessage<String, String> data = new KeyedMessage<>(topic, msg);
